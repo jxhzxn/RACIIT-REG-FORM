@@ -71,46 +71,31 @@ $("#regBtn").click(function(event){
                           "<div>Fill Everything</div>",
                           "",
                           'warning'
-                        ).then((result) => {
-                            // Reload the Page
-                            location.reload();
-                            });
+                        );
             }else if(emailID==""){
                 Swal.fire(
                           "<div>Fill Everything</div>",
                           "",
                           'warning'
-                        ).then((result) => {
-                            // Reload the Page
-                            location.reload();
-                            });
+                        );
             }else if(contactNumber ==""){
                 Swal.fire(
                           "<div>Fill Everything</div>",
                           "",
                           'warning'
-                        ).then((result) => {
-                            // Reload the Page
-                            location.reload();
-                            });
+                        );
             }else if(designation==""){
                 Swal.fire(
                           "<div>Fill Everything</div>",
                           "",
                           'warning'
-                        ).then((result) => {
-                            // Reload the Page
-                            location.reload();
-                            });
-            }else if(clubName=""){
+                        );
+            }else if(clubName=" "){
                 Swal.fire(
                           "<div>Fill Everything</div>",
                           "",
                           'warning'
-                        ).then((result) => {
-                            // Reload the Page
-                            location.reload();
-                            });
+                        );
             }else{
                     $.ajax({
                     method: "POST",
